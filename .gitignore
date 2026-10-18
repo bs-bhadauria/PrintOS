@@ -1,0 +1,22 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Environment variables & secrets (Security safeguard)
+.env
+.env.*
+*.pem
+*.key
+*.cert
+
+# Node / Build artifacts
+node_modules/
+dist/
+build/
+.turbo/
+*.log
+
+# Temp files
+temp/
+uploads/
+*.tmp
